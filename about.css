@@ -61,16 +61,7 @@ nav ul li a{
     text-align: justify;
     color: rgb(146, 110, 146);
 }
-.under-construction{
-    font-size: 15px;
-    text-align: center;
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-.under-construction p{
-    color: rgb(146, 110, 146);
-}
+
 .social_links{
     background: rgba(47, 14, 47, 0.5);
     margin-top: 12%;
