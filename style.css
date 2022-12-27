@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/Web_Photo_Editor.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    
+    box-sizing: border-box;
+    position: relative;
+}
+.bgoverlay{
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(37, 3, 37, 0.7) ;
+}
+.navbarbg{
+    /* background-color: rgba(50, 20, 50, 0.5); */
+    width: 100%;
+    height: 20%;
+}
+.navbar{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    width: 190vh;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    margin-left: 60%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+nav ul li a{
+    text-decoration: underline;
+    color: rgb(240, 227, 227);
+}
+.main {
+    margin-top: 120px;
+    text-align: center;
+    /* text-decoration-color: black; */
+    font-size: 30px;
+}
+.main h1{
+    color:rgb(249, 180, 249);
+}
+.main a{
+    color: rgb(247, 202, 247); 
+    text-decoration: underline; 
+}
+.main h6{
+    color: rgb(255, 215, 255);
+}
+.search_box{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  .search_box input[type="text"]{
+    width: 100%;
+    padding: 20px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.3);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+  }
+
