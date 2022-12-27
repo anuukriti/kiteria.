@@ -61,13 +61,10 @@ nav ul li a{
     text-align: justify;
     color: rgb(146, 110, 146);
 }
-.content construction{
-    font-size: 15px;
-}
 
 .social_links{
     background: rgba(47, 14, 47, 0.5);
-    margin-top: 12%;
+    margin-top: 10%;
     /* margin-left: 40%; */
     list-style: none;
     display: flex;
