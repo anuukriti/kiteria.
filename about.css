@@ -66,6 +66,9 @@ nav ul li a{
     margin-right: 10%;
     margin-left: 10%;
 }
+.under-construction p{
+    color: rgb(146, 110, 146);
+}
 .social_links{
     background: rgba(47, 14, 47, 0.5);
     margin-top: 12%;
